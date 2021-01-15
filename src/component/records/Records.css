@@ -1,0 +1,84 @@
+.records {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.records {
+  overflow-x: hidden;
+  grid-gap: 40px;
+}
+
+@media (max-width: 800px) {
+  .records {
+    margin-top: 20px;
+  }
+}
+
+.records .pagination {
+  overflow-x: hidden;
+  list-style: none;
+  float: right;
+  margin-right: 1.4rem;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+@media (max-width: 800px) {
+  .records .pagination {
+    margin-right: .4rem;
+  }
+}
+
+.records .pagination li {
+  display: inline-block;
+  font-family: Roboto !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #a4a8b9;
+  margin: .5rem;
+  padding: .8rem 0;
+  border: 1px solid rgba(164, 168, 185, 0.747);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+@media (max-width: 500px) {
+  .records .pagination li {
+    margin: .3rem;
+  }
+}
+
+.records .pagination li a {
+  padding: .8rem 1rem;
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  .records .pagination li a {
+    padding: .7rem .6rem;
+    margin: .3rem;
+  }
+}
+
+.records .pagination li:hover {
+  border: 1px  solid #1E86FF;
+}
+
+.records .pagination__link--active {
+  border: .12rem solid #1E86FF !important;
+  color: #fff !important;
+  background: #1E86FF;
+}
+
+.records .pagination__link--active li {
+  color: #fff;
+}
+
+.not__found {
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=Records.css.map */
